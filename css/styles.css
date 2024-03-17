@@ -1,0 +1,390 @@
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    margin-right: 93px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.header {
+    background-color: darkblue;
+
+  
+}
+.header .container {
+    display: flex;
+    align-items: center;
+height: 120px;
+}
+.logo {
+    color: blueviolet;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.78px;
+}
+.logo-acent {
+    color: aqua;
+
+}
+.nav-list {
+    margin-left: auto;
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+}
+.nav-list-text {
+    display: block;
+        padding: 32px 0;
+        font-family: Roboto;
+    font-size: 20px;
+        letter-spacing: 0.18px;
+        font-weight: 400;
+        color: darkgray;
+        text-decoration: none;
+}
+.menu-footer {
+    background-color: darkblue;
+    width: 1519px;
+}
+.book-section {
+   
+    background-color: #fff;
+}
+.book-title {
+    font-weight: 700;
+    font-family: Roboto;
+    font-size: 26px;
+    letter-spacing: 0.78px;
+   margin-left: 710px;
+}
+.logo-acent1 {
+    color: red;
+}
+.logo-acent2 {
+    color: yellow;
+}
+.logo-acent3 {
+    color: green;
+}
+.logo-acent4 {
+    color: blue;
+}
+.logo-acent5 {
+    color: lightblue;
+}
+.logo-acent6 {
+    color: blueviolet;
+}
+.book-list {
+    display: block;
+}
+.book-list-item {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+.book-list-img {
+    width: 100px;
+    height: 200px;
+}
+.footer {
+    background-color: #fff;
+    height: 400px;
+    width: 1490px;
+    border-radius: 1px;
+    border: 1px;
+    border-color: black;
+}
+.footer-title {
+    font-family: Roboto;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    color: black;
+   margin-left: 550px;
+   margin-top: 60px;
+}
+.footer-title1 {
+        font-family: Roboto;
+            font-size: 46px;
+            font-weight: 700;
+            letter-spacing: 0.78px;
+            color: black;
+            margin-left: 270px;
+            margin-top: 60px;
+}
+.book-list-title {
+    text-decoration: none;
+    color: gray;
+}
+.book-list-title:hover {
+   
+    color: darkred;
+}
+.cm {
+    font-family: Roboto;
+        font-size: 46px;
+        font-weight: 700;
+        letter-spacing: 0.78px;
+        color: black;
+        margin-left: 650px;
+       margin-top: 100px;
+}
+.cm-txt {
+font-family: Roboto;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    color: black;
+    margin-left: 680px;
+    margin-top: 400px;
+}
+.name-footer {
+    font-family: Roboto;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 0.18px;
+        color: white;
+        margin-bottom: 100px;
+        margin-left: 100px;
+     
+        width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(33, 33, 33, 0.20);
+            height: 40px;
+}
+.book-text {
+    font-family: Roboto;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 0.18px;
+    }
+.book {
+   width: 1000px;
+  margin-left: 300px;
+   background-color: #fff;
+   padding-top: 20px;
+}
+
+.book-fon {
+    background-image: url("../images/selo.jpg");
+    background-repeat: no-repeat
+    ;
+    background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+}
+.read-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.read-list-text {
+font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+   
+}
+.logo-svg  {
+    fill: gray;
+  position: absolute;
+  right: 640px;
+  top: 2400px;
+
+}
+.s {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.read-list-text1 {
+    font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.58px;
+        color: gray;
+            text-decoration: none;
+
+}
+.read-list-text1:hover {
+    color: darkred;
+}
+.logo-svg:hover {
+    fill: darkred;
+}
+.read-list-text {
+    color: darkred;
+    text-decoration: none;
+}
+.read-list-text:nth-child(2) {
+    color: darkred;
+}
+.read-list-text2 {
+    font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.58px;
+        color: gray;
+        text-decoration: none;
+} 
+.read-list-text2:hover {
+     color: darkred;
+}
+.read-list-text:hover {
+    color: darkred;
+}
+.logo-svg1 {
+    position: absolute;
+     left: 720px;
+   top: 2237px;
+    fill: gray;
+       
+}
+.logo-svg2 {
+    fill: gray;
+        position: absolute;
+        right: 630px;
+        top: 2237px;
+
+}
+.logo-svg1:hover {
+    fill: darkred;
+}
+.logo-svg2:hover {
+    fill: darkred;
+}
+.logo-svg4 {
+    fill: gray;
+    position: absolute;
+    left: 720px;
+    top: 2125px;
+
+}
+.logo-svg4:hover {
+    fill: darkred;
+}
+.logo-svg3 {
+    fill: gray;
+    position: absolute;
+    right:  630px;
+    top: 2125px;
+
+}
+.logo-svg3:hover {
+    fill: darkred;
+
+}
+.logo-svg5 {
+    fill: gray;
+    position: absolute;
+    left: 720px;
+    top: 1555px;
+
+}
+.logo-svg5:hover {
+    fill: darkred;
+    
+
+}
+.book-subtitle {
+        font-family: Roboto;
+            font-size: 45px;
+            font-weight: 700;
+            letter-spacing: 0.58px;
+            margin-left: 340px;
+            margin-bottom: 5px;
+}
+.subsubtitle {
+    font-family: Roboto;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 0.18px;
+        margin-left: 430px;
+        margin-bottom: 20px;
+        color: gray;
+}
+.f {
+    color: gray;
+    font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 0.18px;
+        margin-left: 50px;
+
+}
+.mail {
+   align-items: center;
+   text-decoration: none;
+}
+.mail:hover {
+    color: darkred;
+}
+.discord {
+    text-decoration: none;
+}
+.discord:hover {
+    color: darkred;
+}
+.tg {
+    text-decoration: none;
+}
+.tg:hover {
+    color: darkred;
+}
+.footer-list {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+     margin-left: 10px;
+     margin-right: 100px;
+     margin-top: 20px;
+}
+.v {
+    color: gray;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 0.18px;
+       
+}
