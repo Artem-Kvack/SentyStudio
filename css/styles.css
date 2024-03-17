@@ -44,9 +44,12 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.x-icon {
+    fill: darkorchid;
+}
 .header {
     background-color: darkblue;
-
+width: 1519px;
   
 }
 .header .container {
@@ -66,6 +69,12 @@ height: 120px;
 .logo-acent {
     color: aqua;
 
+}
+.info-svg {
+    fill: gray;
+}
+.info-svg:hover {
+    fill: darkred;
 }
 .nav-list {
     margin-left: auto;
@@ -151,8 +160,8 @@ height: 120px;
     font-weight: 700;
     letter-spacing: 0.78px;
     color: black;
-   margin-left: 550px;
-   margin-top: 60px;
+        position: absolute;
+       left: 600px;
 }
 .footer-title1 {
         font-family: Roboto;
@@ -160,8 +169,8 @@ height: 120px;
             font-weight: 700;
             letter-spacing: 0.78px;
             color: black;
-            margin-left: 270px;
-            margin-top: 60px;
+      position: absolute;
+      left: 600px;
 }
 .book-list-title {
     text-decoration: none;
@@ -241,9 +250,21 @@ font-family: Roboto;
 .logo-svg  {
     fill: gray;
   position: absolute;
-  right: 640px;
-  top: 2400px;
+  right: 630px;
+  top: 2424px;
 
+  
+}
+.modal-title {
+    color: #212121;
+    
+        text-align: center;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.6px;
 }
 .s {
     margin-left: 70px;
@@ -288,7 +309,7 @@ font-family: Roboto;
 .logo-svg1 {
     position: absolute;
      left: 720px;
-   top: 2237px;
+   top: 2260px;
     fill: gray;
        
 }
@@ -296,7 +317,7 @@ font-family: Roboto;
     fill: gray;
         position: absolute;
         right: 630px;
-        top: 2237px;
+        top: 2260px;
 
 }
 .logo-svg1:hover {
@@ -309,7 +330,7 @@ font-family: Roboto;
     fill: gray;
     position: absolute;
     left: 720px;
-    top: 2125px;
+    top: 2147px;
 
 }
 .logo-svg4:hover {
@@ -319,7 +340,7 @@ font-family: Roboto;
     fill: gray;
     position: absolute;
     right:  630px;
-    top: 2125px;
+    top: 2147px;
 
 }
 .logo-svg3:hover {
@@ -330,7 +351,7 @@ font-family: Roboto;
     fill: gray;
     position: absolute;
     left: 720px;
-    top: 1555px;
+    top: 1578px;
 
 }
 .logo-svg5:hover {
@@ -399,3 +420,57 @@ font-family: Roboto;
         letter-spacing: 0.18px;
        
 }
+ .backdrop {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     opacity: 1;
+ }
+.footer-list-item {
+    margin-top: 90px;
+}
+
+ .backdrop.is-hidden {
+     opacity: 0;
+     pointer-events: none;
+ }
+
+ .no-scroll {
+     overflow: hidden;
+ }
+
+ .modal {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     min-width: 400px;
+     min-height: 300px;
+     padding: 15px;
+     background-color: white;
+     transform: translate(-50%, -50%);
+ }
+ .modal-button {
+    display: block;
+    margin-left: 950px;
+    background-color: white;
+    border-radius: 1px;
+    border-color: white;
+ }
+ .modal-text {
+    margin-top: 10px;
+ }
+ .modal-cross-svg {
+    fill: gray;
+ }
+ .modal-close {
+    background-color: white;
+    border-radius: 1px;
+    border-color: white;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+ }
+ 

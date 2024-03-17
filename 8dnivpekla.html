@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>8 днів пекла</title>
+    <link rel="icon" href="./images/symbol-defs.svg#icon-file-empty" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -38,6 +39,22 @@
 
         <section class="book">
             <section class="book-section">
+                <button type="button" class="modal-button" data-modal-open >
+                    і
+                </button>
+               
+                    
+                    <div class="backdrop is-hidden" data-modal>
+                        <div class="modal">
+                           
+                            <p class="modal-title">Інформація</p>
+                          
+                            <p class="modal-text">Автор: Квачук Артем Іванович</p>
+                            <p class="modal-text">Дата завершення написання: 14.03.24</p>
+                            <p class="modal-text">Дата виходу: 16.03.24</p>
+                           <button type="button" class="modal-close" data-modal-close>X</button>
+                        </div>
+                    </div>
                 <h1 class="book-subtitle">8 днів пекла</h1>
                 <p class="subsubtitle">Сторінка 1 з 4</p>
                 <p class="s">13 травня 2030 рік. Ерангель є транзитною територією 2 країн – Баристан и Аль-Мутан. Але
@@ -367,34 +384,34 @@
                         </svg></a></li>
 
             </ul>
-                <h2 class="footer-title1">Написати коментар</h2>
-                <ul class="footer-list list">
-                    <li class="footer-list-item">
-                        <p class="f"> Email</p>
-                        <a href="mail:booksiteartem@gmail.com" class="mail">booksiteartem@gmail.com</a>
-                    </li>
-                    <li class="footer-list-item">
-                        <p class="v">Discord</p>
-                        <a href="Sentystudio" class="discord">Sentystudio</a>
-                    </li>
-                    <li class="footer-list-item">
-                        <p class="f">Telegram</p>
-                        <a href="t.me/booksiteartem" class="tg">t.me/booksiteartem</a>
-                    </li>
-                </ul>
+            <h2 class="footer-title1">Написати коментар</h2>
+            <ul class="footer-list list">
+                <li class="footer-list-item">
+                    <p class="f"> Email</p>
+                    <a href="mail:booksiteartem@gmail.com" class="mail">booksiteartem@gmail.com</a>
+                </li>
+                <li class="footer-list-item">
+                    <p class="v">Discord</p>
+                    <a href="Sentystudio" class="discord">Sentystudio</a>
+                </li>
+                <li class="footer-list-item">
+                    <p class="f">Telegram</p>
+                    <a href="t.me/booksiteartem" class="tg">t.me/booksiteartem</a>
+                </li>
+            </ul>
         </section>
-        
+
 
     </section>
 
     </div>
     <footer class="footer">
-           <h1 class="cm">Коментарі</h1>
-           <p class="cm-txt">Пусто :)</p>
+        <h1 class="cm">Коментарі</h1>
+        <p class="cm-txt">Пусто :)</p>
         </div>
     </footer>
     </div>
-
+<script src="./js/modal.js"></script>
 </body>
 
 </html>
