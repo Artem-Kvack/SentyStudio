@@ -60,6 +60,8 @@ height: 120px;
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.78px;
+    margin-left: 30px;
+    margin-bottom: 60px;
 }
 .logo-acent {
     color: aqua;
@@ -94,7 +96,7 @@ height: 120px;
     font-family: Roboto;
     font-size: 26px;
     letter-spacing: 0.78px;
-   margin-left: 710px;
+    margin-left: 721px;
 }
 .logo-acent1 {
     color: red;
@@ -125,6 +127,15 @@ height: 120px;
 .book-list-img {
     width: 100px;
     height: 200px;
+}
+.fer {
+    width: 100px;
+        height: 200px;
+}
+
+.container-book {
+    width: 100px;
+        height: 200px;
 }
 .footer {
     background-color: #fff;
