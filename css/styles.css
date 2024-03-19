@@ -126,7 +126,7 @@ height: 120px;
     color: blueviolet;
 }
 .book-list {
-    display: block;
+    display: flex;
 }
 .book-list-item {
   margin-top: 50px;
@@ -141,15 +141,33 @@ height: 120px;
     width: 100px;
         height: 200px;
 }
+.book-list-img {
+    width: 100px;
+        height: 200px;
 
+}
+.book-list-img1 {
+    width: 100px;
+        height: 200px;
+}
+.book-title-tit {
+    position: absolute;
+        bottom: 300px;
+        background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+        width: 100px;
+        height: 220px;
+        padding: 27px;
+        color: #FFF;
+}
 .container-book {
     width: 100px;
         height: 200px;
 }
 .footer {
     background-color: #fff;
-    height: 400px;
-    width: 1490px;
+    height: 100%;
+    width: 100%;
     border-radius: 1px;
     border: 1px;
     border-color: black;
@@ -159,9 +177,29 @@ height: 120px;
     font-size: 46px;
     font-weight: 700;
     letter-spacing: 0.78px;
-    color: black;
+    color: white;
+    margin-left: 550px;    
+}
+ .uvaga {
+    font-family: Roboto;
+        font-size: 7px;
+        font-weight: 400;
+        letter-spacing: 0.18px;
+        color: white;
         position: absolute;
-       left: 600px;
+        top: 780px;
+        left: 620px;
+    
+ }
+.uvaga1 {
+        font-family: Roboto;
+            font-size: 7px;
+            font-weight: 400;
+            letter-spacing: 0.18px;
+            color: black;
+            position: absolute;
+            top: 2650px;
+            left: 620px;
 }
 .footer-title1 {
         font-family: Roboto;
@@ -170,7 +208,7 @@ height: 120px;
             letter-spacing: 0.78px;
             color: black;
       position: absolute;
-      left: 600px;
+      left: 550px;
 }
 .book-list-title {
     text-decoration: none;
@@ -185,12 +223,30 @@ height: 120px;
         font-size: 46px;
         font-weight: 700;
         letter-spacing: 0.78px;
-        color: black;
+        color: white;
         margin-left: 650px;
        margin-top: 100px;
 }
+.cm1 {
+    font-family: Roboto;
+        font-size: 46px;
+        font-weight: 700;
+        letter-spacing: 0.78px;
+        color: black;
+        margin-left: 650px;
+        margin-top: 100px;
+}
 .cm-txt {
 font-family: Roboto;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    color: white;
+    margin-left: 680px;
+    margin-top: 100px;
+}
+.cm-txt1 {
+    font-family: Roboto;
     font-size: 46px;
     font-weight: 700;
     letter-spacing: 0.78px;
@@ -377,7 +433,7 @@ font-family: Roboto;
         color: gray;
 }
 .f {
-    color: gray;
+    color: white;
     font-family: Roboto;
         font-size: 20px;
         font-weight: 400;
@@ -386,39 +442,80 @@ font-family: Roboto;
 
 }
 .mail {
+    color: white;
    align-items: center;
    text-decoration: none;
+   
 }
 .mail:hover {
+    color: lightskyblue;
+}
+.mail1 {
+    align-items: center;
+        text-decoration: none;
+        color: gray;
+}
+.mail1:hover {
     color: darkred;
 }
 .discord {
     text-decoration: none;
+    color: white;
 }
 .discord:hover {
+    color: lightskyblue;
+}
+.discord1 {
+    text-decoration: none;
+    color: gray;
+}
+.discord1:hover {
     color: darkred;
 }
 .tg {
     text-decoration: none;
+    color: white;
 }
 .tg:hover {
-    color: darkred;
+    color: lightskyblue;
+}
+.tg1 {
+    text-decoration: none;
+    color: gray;
+}
+.tg1:hover {
+  color: darkred;
 }
 .footer-list {
     display: flex;
     gap: 50px;
     justify-content: center;
      margin-left: 10px;
-     margin-right: 100px;
+     
      margin-top: 20px;
+    
 }
 .v {
-    color: gray;
+    color: white;
         font-family: Roboto;
         font-size: 20px;
         font-weight: 400;
         letter-spacing: 0.18px;
        
+}
+.v1 {
+    color: black;
+    font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 0.18px;
+}
+.f1 {
+    font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 0.18px;
+        color: black;
 }
  .backdrop {
      position: fixed;
