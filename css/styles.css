@@ -180,26 +180,94 @@ height: 120px;
     color: white;
     margin-left: 550px;    
 }
- .uvaga {
+.logo-svg7 {
+    fill: darkgoldenrod;
+}
+.cm-name {
     font-family: Roboto;
-        font-size: 7px;
-        font-weight: 400;
+        font-size: 46px;
+        font-weight: 700;
+        letter-spacing: 0.78px;
+        color: pink;
+        margin-left: 50px;
+}
+.cm-number {
+    font-family: Roboto;
+        font-size: 25px;
+        font-weight: 700;
         letter-spacing: 0.18px;
-        color: white;
+        color: pink;
+        margin-left: 150px;
+        margin-top: 50px;
+}
+.cm-number1 {
+    font-family: Roboto;
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 0.18px;
+        color: black;
+        margin-left: 80px;
+        margin-top: 50px;
+}
+.cm-list {
+    display: flex;
+    gap: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.logo-svg0 {
+    fill: darkgoldenrod;
+    position: absolute;
+    left: 190px;
+   top: 965px;
+}
+.logo-svg13 {
+    fill: darkgoldenrod;
         position: absolute;
-        top: 780px;
-        left: 620px;
-    
- }
-.uvaga1 {
+        left: 120px;
+        top: 2803px;
+}
+.comment-foto {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.comment-foto1 {
+    width: 20px;
+        height: 20px;
+        margin-left: 20px;
+}
+.comment-name {
+  position: absolute;
+  left: 40px;
+  top: 1030px;
+  color: #fff;
+}
+.coment-name1 {
+ margin-top: 10px;
+        color: black;
+        position: absolute;
+        left: 40px;
         font-family: Roboto;
-            font-size: 7px;
-            font-weight: 400;
+            font-size: 20px;
+            font-weight: 700;
             letter-spacing: 0.18px;
-            color: black;
-            position: absolute;
-            top: 2650px;
-            left: 620px;
+}
+.coment-text {
+    margin-left: 20px;
+    color: white;
+    margin-top: 10px;
+  
+}
+.coment-text1 {
+    margin-left: 10px;
+        color: black;
+        margin-top: 10px;
+        font-family: Roboto;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 0.18px;
 }
 .footer-title1 {
         font-family: Roboto;
