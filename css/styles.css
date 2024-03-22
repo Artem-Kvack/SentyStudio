@@ -95,6 +95,7 @@ height: 120px;
 .menu-footer {
     background-color: darkblue;
     width: 1519px;
+    height: 700px;
 }
 .book-section {
    
@@ -172,6 +173,9 @@ height: 120px;
     border: 1px;
     border-color: black;
 }
+.logo-svg8 {
+    fill: darkgoldenrod;
+}
 .footer-title {
     font-family: Roboto;
     font-size: 46px;
@@ -179,6 +183,17 @@ height: 120px;
     letter-spacing: 0.78px;
     color: white;
     margin-left: 550px;    
+}
+.cb-list {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.cb-text {
+    color: gray;
+    position: absolute;
+    left: 120px;
+    top: 1110px;
 }
 .logo-svg7 {
     fill: darkgoldenrod;
@@ -248,11 +263,17 @@ height: 120px;
  margin-top: 10px;
         color: black;
         position: absolute;
-        left: 40px;
+        left: 500px;
         font-family: Roboto;
             font-size: 20px;
             font-weight: 700;
             letter-spacing: 0.18px;
+}
+.cb-text1 {
+    color: gray;
+    position: absolute;
+    left: 120px;
+    top: 2967px;
 }
 .coment-text {
     margin-left: 20px;
