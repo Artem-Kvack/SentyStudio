@@ -452,7 +452,7 @@ font-family: Roboto;
 .logo-svg1 {
     position: absolute;
      left: 720px;
-   top: 2260px;
+   top: 2240px;
     fill: gray;
        
 }
@@ -460,7 +460,7 @@ font-family: Roboto;
     fill: gray;
         position: absolute;
         right: 630px;
-        top: 2260px;
+        top: 2240px;
 
 }
 .logo-svg1:hover {
@@ -473,7 +473,7 @@ font-family: Roboto;
     fill: gray;
     position: absolute;
     left: 720px;
-    top: 2147px;
+    top: 2127px;
 
 }
 .logo-svg4:hover {
@@ -483,7 +483,7 @@ font-family: Roboto;
     fill: gray;
     position: absolute;
     right:  630px;
-    top: 2147px;
+    top: 2127px;
 
 }
 .logo-svg3:hover {
@@ -494,7 +494,7 @@ font-family: Roboto;
     fill: gray;
     position: absolute;
     left: 720px;
-    top: 1578px;
+    top: 1595px;
 
 }
 .logo-svg5:hover {
