@@ -95,7 +95,7 @@ height: 120px;
 .menu-footer {
     background-color: darkblue;
     width: 1519px;
-    height: 700px;
+    height: 1000px;
 }
 .book-section {
    
@@ -259,21 +259,19 @@ height: 120px;
   top: 1080px;
   color: #fff;
 }
-.coment-name1 {
+.comment-name1 {
  margin-top: 10px;
         color: black;
         position: absolute;
-        left: 500px;
-        font-family: Roboto;
-            font-size: 20px;
-            font-weight: 700;
-            letter-spacing: 0.18px;
+        left: 50px;
+        top: 2910px;
+        
 }
 .cb-text1 {
     color: gray;
     position: absolute;
     left: 120px;
-    top: 2967px;
+    top: 2949px;
 }
 .coment-text {
     margin-left: 20px;
@@ -659,4 +657,57 @@ font-family: Roboto;
     right: 15px;
     top: 15px;
  }
- 
+ .comment-foto2 {
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+ }
+ .comment-name2 {
+    position: absolute;
+        left: 50px;
+        top: 1177px;
+        color: #fff;
+ }
+.com-list {
+    display: flex;
+        margin-left: 20px;
+        margin-top: 10px;
+}
+.logo-svg10 {
+  fill: darkgoldenrod;
+}
+.cb-text3 {
+    color: gray;
+        position: absolute;
+        left: 120px;
+        top: 1208px;
+
+}
+.coment-text2 {
+    margin-left: 20px;
+        color: white;
+        margin-top: 10px;
+}
+.comment-name3 {
+    margin-top: 10px;
+        color: black;
+        position: absolute;
+        left: 50px;
+        top: 3010px;
+       }
+.cb-text4 {
+    color: gray;
+        position: absolute;
+        left: 120px;
+        top: 3050px;
+}
+.coment-text3 {
+    margin-left: 10px;
+        color: black;
+        margin-top: 10px;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 0.18px;
+}
