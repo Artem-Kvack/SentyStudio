@@ -748,6 +748,12 @@ font-family: Roboto;
         height: 20px;
         margin-left: 20px;
 }
+.comment-foto81 {
+    margin-top: 20px;
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+}
 .comment-name4 {
     margin-top: 10px;
     color: white;
@@ -766,11 +772,23 @@ position: absolute;
         color: black;
         top: 3251px;
 }
+.comment-name71 {
+    position: absolute;
+        left: 50px;
+        color: black;
+        top: 3356px;
+}
 .cb-text17 {
     color: gray;
         position: absolute;
         left: 120px;
         top: 3280px;
+}
+.cb-text77 {
+    color: gray;
+        position: absolute;
+        left: 120px;
+        top: 3383px;
 }
 .coment-text13 {
 margin-left: 10px;
@@ -780,6 +798,15 @@ margin-left: 10px;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.18px;
+}
+.coment-text31 {
+    margin-left: 10px;
+        color: black;
+        margin-top: 10px;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 0.18px;
 }
 .cb-text5 {
     color: gray;
