@@ -46,6 +46,204 @@ img {
   overflow: hidden;
 }
 
+.modal-title {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 400px;
+  min-height: 300px;
+  padding: 15px;
+  background-color: white;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.modal-button {
+  display: block;
+  margin-left: 950px;
+  background-color: white;
+  border-radius: 1px;
+  border-color: white;
+}
+
+.modal-text {
+  margin-top: 10px;
+}
+
+.modal-cross-svg {
+  fill: gray;
+}
+
+.modal-close {
+  background-color: white;
+  border-radius: 1px;
+  border-color: white;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.logo {
+  color: blueviolet;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.78px;
+  margin-left: 30px;
+  margin-bottom: 60px;
+}
+
+.logo-acent {
+  color: aqua;
+}
+
+.logo-svg8 {
+  fill: darkgoldenrod;
+}
+
+.logo-svg7 {
+  fill: darkgoldenrod;
+}
+
+.logo-svg0 {
+  fill: darkgoldenrod;
+  position: absolute;
+  left: 120px;
+  top: 985px;
+}
+
+.logo-svg13 {
+  fill: darkgoldenrod;
+  position: absolute;
+  left: 120px;
+  top: 2803px;
+}
+
+.logo-svg {
+  fill: gray;
+  position: absolute;
+  right: 630px;
+  top: 2424px;
+}
+
+.logo-svg:hover {
+  fill: darkred;
+}
+
+.logo-svg1 {
+  position: absolute;
+  left: 720px;
+  top: 2240px;
+  fill: gray;
+}
+
+.logo-svg2 {
+  fill: gray;
+  position: absolute;
+  right: 630px;
+  top: 2240px;
+}
+
+.logo-svg1:hover {
+  fill: darkred;
+}
+
+.logo-svg2:hover {
+  fill: darkred;
+}
+
+.logo-svg4 {
+  fill: gray;
+  position: absolute;
+  left: 720px;
+  top: 2127px;
+}
+
+.logo-svg4:hover {
+  fill: darkred;
+}
+
+.logo-svg3 {
+  fill: gray;
+  position: absolute;
+  right: 630px;
+  top: 2127px;
+}
+
+.logo-svg3:hover {
+  fill: darkred;
+}
+
+.logo-svg5 {
+  fill: gray;
+  position: absolute;
+  left: 720px;
+  top: 1595px;
+}
+
+.logo-svg5:hover {
+  fill: darkred;
+}
+
+.logo-svg10 {
+  fill: darkgoldenrod;
+}
+
+.logo-acent1 {
+  color: red;
+}
+
+.logo-acent2 {
+  color: yellow;
+}
+
+.logo-acent3 {
+  color: green;
+}
+
+.logo-acent4 {
+  color: blue;
+}
+
+.logo-acent5 {
+  color: lightblue;
+}
+
+.logo-acent6 {
+  color: blueviolet;
+}
+
 .cm-name {
   font-family: Roboto;
   font-size: 46px;
